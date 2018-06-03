@@ -11,7 +11,7 @@ default:
 build: default
 
 clean:
-	rm -f *.tar.gz
+	rm -f lab3b-104946787.tar.gz
 
 dist: 
 	tar -czf lab3b-104946787.tar.gz lab3b.py Makefile README
